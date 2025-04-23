@@ -1,0 +1,45 @@
+Experiment 5: Develop a Form Component in React
+Objective
+To create a React form component that accepts user input, processes the data, and displays the results dynamically.
+Tools Required
+Software:
+Node.js and npm.
+Code editor (e.g., Visual Studio Code).
+Browser (e.g., Google Chrome) to view the output.
+Hardware:
+A computer system with a minimum of 4GB RAM and internet connectivity.
+Theory:
+React is a JavaScript library used for building user interfaces, especially for single-page applications. One of the common use cases is creating dynamic forms where users can input data. Forms in React can be controlled or uncontrolled:
+Controlled components: React manages the state of the form inputs.
+Uncontrolled components: The DOM itself manages the state of the form inputs.
+In this experiment, we will work with controlled components, where React will manage the form input values. A controlled form ensures that the form data is synchronized with the React component’s state, allowing us to easily handle user input and form submission.
+Key Concepts:
+useState: A React hook used to manage state in functional components.
+onSubmit: An event handler used for form submission.
+Validation: The process of ensuring the input meets the desired criteria (e.g., non-empty, email format).
+Event Handling: Handling events like onChange and onSubmit to update the state or perform actions.
+Task
+Develop a form component with input fields for user data.
+On submission, process the data and display it dynamically on the screen.
+Instructions
+Set Up Your React Application:
+Ensure you have a React environment set up. If not, create a new React app using npx create-react-app and navigate to the project folder.
+Create a Form Component:
+In your project’s src folder, create a new file for your form component (e.g., FormComponent.js).
+Define the component using functional syntax and import useState for managing form state.
+Add Form Fields:
+Create form elements like text inputs for user data (e.g., name, email).
+Use React's useState hook to manage the values of these form fields.
+Add Event Handlers:
+Create functions to handle changes in input fields (e.g., when a user types something in the input).
+Create a function to handle form submission, validating inputs and performing actions upon submission.
+Add Form Validation:
+Before submission, validate that all required fields are filled and that data like email follows the correct format.
+Display error messages if validation fails.
+Render the Form:
+In the App.js file (or other main component), import and render the FormComponent to display it on the webpage.
+Make sure the form reacts to user input and shows the relevant output or error messages.
+
+Conclusion:
+In this experiment, we successfully developed a basic form component in React. We learned how to use React's state management (useState) to handle form inputs and how to implement basic validation to ensure the data is correct before submission. This foundational knowledge of working with forms in React is important for building interactive and dynamic web applications, where forms are commonly used to collect and manage user data.
+
